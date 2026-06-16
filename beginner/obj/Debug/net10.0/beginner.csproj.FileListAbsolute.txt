@@ -1,0 +1,14 @@
+C:\Dev\outros\beginner\bin\Debug\net10.0\beginner.exe
+C:\Dev\outros\beginner\bin\Debug\net10.0\beginner.deps.json
+C:\Dev\outros\beginner\bin\Debug\net10.0\beginner.runtimeconfig.json
+C:\Dev\outros\beginner\bin\Debug\net10.0\beginner.dll
+C:\Dev\outros\beginner\bin\Debug\net10.0\beginner.pdb
+C:\Dev\outros\beginner\obj\Debug\net10.0\beginner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\outros\beginner\obj\Debug\net10.0\beginner.AssemblyInfoInputs.cache
+C:\Dev\outros\beginner\obj\Debug\net10.0\beginner.AssemblyInfo.cs
+C:\Dev\outros\beginner\obj\Debug\net10.0\beginner.csproj.CoreCompileInputs.cache
+C:\Dev\outros\beginner\obj\Debug\net10.0\beginner.dll
+C:\Dev\outros\beginner\obj\Debug\net10.0\refint\beginner.dll
+C:\Dev\outros\beginner\obj\Debug\net10.0\beginner.pdb
+C:\Dev\outros\beginner\obj\Debug\net10.0\beginner.genruntimeconfig.cache
+C:\Dev\outros\beginner\obj\Debug\net10.0\ref\beginner.dll

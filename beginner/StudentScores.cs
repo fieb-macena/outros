@@ -4,34 +4,46 @@ class StudentScores
 {
     public void Start()
     {
-        // initialize variables - graded assignments 
         int currentAssignments = 5;
 
-        // Students
-        Student[] students = new Student[4];
-        students[0] = new Student("Sophia", [90, 86, 87, 98, 100]);
-        students[1] = new Student("Andrew", [92, 89, 81, 96, 90]);
-        students[2] = new Student("Emma", [90, 85, 87, 98, 68]);
-        students[3] = new Student("Logan", [90, 95, 87, 88, 96]);
+        Student[] students = new Student[8];
+        students[0] = new Student("Sophia", [90, 86, 87, 98, 100, 94, 90]);
+        students[1] = new Student("Andrew", [92, 89, 81, 96, 90, 89]);
+        students[2] = new Student("Emma", [90, 85, 87, 98, 68, 89, 89, 89]);
+        students[3] = new Student("Logan", [90, 95, 87, 88, 96, 96]);
+        students[4] = new Student("Becky", [92, 91, 90, 91, 92, 92, 92]);
+        students[5] = new Student("Chris", [84, 86, 88, 90, 92, 94, 96, 98]);
+        students[6] = new Student("Eric", [80, 90, 100, 80, 90, 100, 80, 90]);
+        students[7] = new Student("Gregor", [91, 91, 91, 91, 91, 91, 91]);
 
-        int sum;
-        decimal gpa;
+        decimal normalGrades, extraGrades, totalGpa, normalGpa;
         string gradeLetter;
-        string finalMessage = "Student\t\tGrade\n\n";
+        string finalMessage = "\nStudent\t\tGrade\t\tOverall Grade\t\tExtra Credit\n\n";
+        int extraGradesCount;
 
         foreach (Student student in students)
         {
-            sum = 0;
-            gpa = 0;
+            normalGrades = 0;
+            extraGrades = 0;
+            totalGpa = 0;
+            extraGradesCount = 0;
 
-            foreach (int score in student.scores)
+            //scores above the number of currentAssignments are extra scores and worth 10% of a normal exam
+            for (int i = 0; i < student.scores.Length; i++)
             {
-                sum += score;
+                if (i >= currentAssignments)
+                {
+                    extraGrades += student.scores[i];
+                    extraGradesCount++;
+                }
+                else
+                    normalGrades += student.scores[i];
             }
 
-            gpa = (decimal)(sum) / currentAssignments;
+            normalGpa = normalGrades / currentAssignments;
+            totalGpa = (normalGrades + extraGrades / 10) / currentAssignments;
 
-            gradeLetter = gpa switch
+            gradeLetter = totalGpa switch
             {
                 > 96 => "A+",
                 > 92 => "A",
@@ -48,7 +60,7 @@ class StudentScores
                 _ => "F"
             };
 
-            finalMessage += $"{student.name}\t\t{gpa}\t{gradeLetter}\n";
+            finalMessage += $"{student.name}\t\t{normalGpa}\t\t{totalGpa}\t{gradeLetter}\t\t{extraGrades/extraGradesCount} ({totalGpa-normalGpa}  pts)\n";
         }
 
         finalMessage += "\nPress the Enter key to continue";

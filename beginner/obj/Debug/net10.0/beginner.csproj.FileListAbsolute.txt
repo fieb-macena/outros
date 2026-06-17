@@ -12,3 +12,4 @@ C:\Dev\outros\beginner\obj\Debug\net10.0\refint\beginner.dll
 C:\Dev\outros\beginner\obj\Debug\net10.0\beginner.pdb
 C:\Dev\outros\beginner\obj\Debug\net10.0\beginner.genruntimeconfig.cache
 C:\Dev\outros\beginner\obj\Debug\net10.0\ref\beginner.dll
+C:\Dev\outros\beginner\obj\Debug\net10.0\beginner.sourcelink.json

@@ -4,35 +4,36 @@ namespace beginner;
 
 public class Media
 {
-    int[] sophia = [93, 87, 98, 95, 100, 0];
-    int[] nicolas = [80, 83, 82, 88, 85, 0];
-    int[] zahirah = [84, 96, 73, 85, 79, 0];
-    int[] jeong = [90, 92, 98, 100, 97, 0];
-    int currentAssignments = 5;
+    readonly int currentAssignments = 5;
     double sophiaMedia, nicolasMedia, zahirahMedia, jeongMedia;
 
-    public void CalculaMedia()
+    public void Main()
     {
-        for (int i = 0; i < currentAssignments; i++)
-        {
-            sophia[5] += sophia[i];
-            nicolas[5] += nicolas[i];
-            zahirah[5] += zahirah[i];
-            jeong[5] += jeong[i];
-        }
+        int[] sophia = [93, 87, 98, 95, 100, 0];
+        int[] nicolas = [80, 83, 82, 88, 85, 0];
+        int[] zahirah = [84, 96, 73, 85, 79, 0];
+        int[] jeong = [90, 92, 98, 100, 97, 0];
 
-        sophiaMedia = (double)sophia[5]/currentAssignments;
-        nicolasMedia = (double)nicolas[5]/currentAssignments;
-        zahirahMedia = (double)zahirah[5]/currentAssignments;
-        jeongMedia = (double)jeong[5]/currentAssignments;
+        sophiaMedia = CalculaMedia(sophia);
+        nicolasMedia = CalculaMedia(nicolas);
+        zahirahMedia = CalculaMedia(zahirah);
+        jeongMedia = CalculaMedia(jeong);
 
         Console.WriteLine($@"
         Student         Grade
-        Sophia          {sophiaMedia}   {CalculaLetra(sophiaMedia)}
-        Nicolas         {nicolasMedia}  {CalculaLetra(nicolasMedia)}
-        Zahirah         {zahirahMedia}  {CalculaLetra(zahirahMedia)}
-        Jeong           {jeongMedia}    {CalculaLetra(jeongMedia)}
-        ");
+        Sophia          {sophiaMedia}       {CalculaLetra(sophiaMedia)}
+        Nicolas         {nicolasMedia}       {CalculaLetra(nicolasMedia)}
+        Zahirah         {zahirahMedia}       {CalculaLetra(zahirahMedia)}
+        Jeong           {jeongMedia}       {CalculaLetra(jeongMedia)}");
+    }
+
+    public double CalculaMedia(int[] notas)
+    {
+        for (int i = 0; i < currentAssignments; i++)
+        {
+            notas[currentAssignments] += notas[i];
+        }
+        return (double)notas[currentAssignments] / currentAssignments;
     }
 
     static string CalculaLetra(double media)

@@ -8,4 +8,7 @@ using beginner.scores;
 //new Dice().Start();
 //Renewal.Start();
 //new FraudAnalysis().Start();
-new StudentScores().Start();
+//new StudentScores().Start();
+//DoWhile.Start();
+//RPG.Start();
+DoWhileComparison.Start2();

@@ -6,16 +6,17 @@ class StudentScores
     {
         int currentAssignments = 5;
 
-        Student[] students = new Student[8];
-        students[0] = new Student("Sophia", [90, 86, 87, 98, 100, 94, 90]);
-        students[1] = new Student("Andrew", [92, 89, 81, 96, 90, 89]);
-        students[2] = new Student("Emma", [90, 85, 87, 98, 68, 89, 89, 89]);
-        students[3] = new Student("Logan", [90, 95, 87, 88, 96, 96]);
-        students[4] = new Student("Becky", [92, 91, 90, 91, 92, 92, 92]);
-        students[5] = new Student("Chris", [84, 86, 88, 90, 92, 94, 96, 98]);
-        students[6] = new Student("Eric", [80, 90, 100, 80, 90, 100, 80, 90]);
-        students[7] = new Student("Gregor", [91, 91, 91, 91, 91, 91, 91]);
-
+        Student[] students =
+        [
+            new Student("Sophia", [90, 86, 87, 98, 100, 94, 90]),
+            new Student("Andrew", [92, 89, 81, 96, 90, 89]),
+            new Student("Emma", [90, 85, 87, 98, 68, 89, 89, 89]),
+            new Student("Logan", [90, 95, 87, 88, 96, 96]),
+            new Student("Becky", [92, 91, 90, 91, 92, 92, 92]),
+            new Student("Chris", [84, 86, 88, 90, 92, 94, 96, 98]),
+            new Student("Eric", [80, 90, 100, 80, 90, 100, 80, 90]),
+            new Student("Gregor", [91, 91, 91, 91, 91, 91, 91]),
+        ];
         decimal normalGrades, extraGrades, totalGpa, normalGpa;
         string gradeLetter;
         string finalMessage = "\nStudent\t\tGrade\t\tOverall Grade\t\tExtra Credit\n\n";

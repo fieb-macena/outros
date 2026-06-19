@@ -1,0 +1,15 @@
+C:\Dev\outros\mirosoft_médulo_2\bin\Debug\net10.0\mirosoft_médulo_2.exe
+C:\Dev\outros\mirosoft_médulo_2\bin\Debug\net10.0\mirosoft_médulo_2.deps.json
+C:\Dev\outros\mirosoft_médulo_2\bin\Debug\net10.0\mirosoft_médulo_2.runtimeconfig.json
+C:\Dev\outros\mirosoft_médulo_2\bin\Debug\net10.0\mirosoft_médulo_2.dll
+C:\Dev\outros\mirosoft_médulo_2\bin\Debug\net10.0\mirosoft_médulo_2.pdb
+C:\Dev\outros\mirosoft_médulo_2\obj\Debug\net10.0\mirosoft_médulo_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\outros\mirosoft_médulo_2\obj\Debug\net10.0\mirosoft_médulo_2.AssemblyInfoInputs.cache
+C:\Dev\outros\mirosoft_médulo_2\obj\Debug\net10.0\mirosoft_médulo_2.AssemblyInfo.cs
+C:\Dev\outros\mirosoft_médulo_2\obj\Debug\net10.0\mirosoft_médulo_2.csproj.CoreCompileInputs.cache
+C:\Dev\outros\mirosoft_médulo_2\obj\Debug\net10.0\mirosoft_médulo_2.sourcelink.json
+C:\Dev\outros\mirosoft_médulo_2\obj\Debug\net10.0\mirosoft_médulo_2.dll
+C:\Dev\outros\mirosoft_médulo_2\obj\Debug\net10.0\refint\mirosoft_médulo_2.dll
+C:\Dev\outros\mirosoft_médulo_2\obj\Debug\net10.0\mirosoft_médulo_2.pdb
+C:\Dev\outros\mirosoft_médulo_2\obj\Debug\net10.0\mirosoft_médulo_2.genruntimeconfig.cache
+C:\Dev\outros\mirosoft_médulo_2\obj\Debug\net10.0\ref\mirosoft_médulo_2.dll

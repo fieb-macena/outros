@@ -303,6 +303,7 @@ do
         case "5":
             break;
         case "6":
+            Console.WriteLine("6");
             break;
         case "7":
             break;

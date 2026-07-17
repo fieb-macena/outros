@@ -11,4 +11,7 @@ using beginner.scores;
 //new StudentScores().Start();
 //DoWhile.Start();
 //RPG.Start();
-DoWhileComparison.Start2();
+//DoWhileComparison.Start2();
+//VariablesDemo.Start();
+//Console.WriteLine(AdicionaZeros.adicionaZeros("123", 10));
+Conversion.Start();

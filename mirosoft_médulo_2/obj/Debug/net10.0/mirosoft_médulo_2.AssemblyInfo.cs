@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mirosoft_médulo_2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5002538961baa59f9394488ca76014293674fe7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7130990267aa1626a6b7223d31e852ab2e50da0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("mirosoft_médulo_2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mirosoft_médulo_2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

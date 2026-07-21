@@ -14,4 +14,7 @@ using beginner.scores;
 //DoWhileComparison.Start2();
 //VariablesDemo.Start();
 //Console.WriteLine(AdicionaZeros.adicionaZeros("123", 10));
-Conversion.Start();
+//Conversion.Start();
+//ArrayManipulation.Orders();
+//Formatting.Exercise();
+StringManipulation.Exercise();
